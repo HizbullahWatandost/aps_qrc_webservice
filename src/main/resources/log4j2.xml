@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO" monitorInterval="30">
+    <Properties>
+        <Property name="LOG_PATTERN">
+            [%highlight{%-5level}] \n %d{DEFAULT} \n %c{1}.%M() \n- %msg%n%throwable{short.lineNumber}
+        </Property>
+    </Properties>
+
+    <Appenders>
+        <Console name="ConsoleAppender" target="SYSTEM_OUT" follow="true">
+            <PatternLayout
+                    pattern="[%highlight{%-5level}] %d{DEFAULT}  %c{1}.%M() - %msg%n%throwable{short.lineNumber}"/>
+        </Console>
+
+        <!-- Rolling Logging File Appender -->
+        <RollingFile name="FileAppender" fileName="logs/APS-QR-CODE-logs.log"
+                     filePattern="logs/QR-CODE-WEB-SERVICE-logs-%d{yyyy-MM-dd}-%i.log">
+            <PatternLayout>
+                <Pattern>${LOG_PATTERN}</Pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1"/>
+                <SizeBasedTriggeringPolicy size="5MB"/>
+            </Policies>
+            <DefaultRolloverStrategy max="10"/>
+        </RollingFile>
+    </Appenders>
+
+    <Loggers>
+        <Logger name="com.aps.qrc" level="debug"
+                additivity="false">
+            <AppenderRef ref="ConsoleAppender"/>
+            <AppenderRef ref="FileAppender"/>
+        </Logger>
+
+        <Root level="info">
+            <AppenderRef ref="ConsoleAppender"/>
+            <AppenderRef ref="FileAppender"/>
+        </Root>
+    </Loggers>
+</Configuration>

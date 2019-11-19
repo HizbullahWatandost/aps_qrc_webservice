@@ -1,0 +1,124 @@
+[INFO ] 
+ 2019-04-10 12:04:38,206 
+ ApsqrcWebServiceApplication.logStarting() 
+- Starting ApsqrcWebServiceApplication on DESKTOP-AVQ5AFN with PID 27892 (C:\Users\BeauTifuL_WorlD\spring-tool-suite-projects-2019\APSQRCWebService\target\classes started by BeauTifuL_WorlD in C:\Users\BeauTifuL_WorlD\spring-tool-suite-projects-2019\APSQRCWebService)
+[DEBUG] 
+ 2019-04-10 12:04:38,234 
+ ApsqrcWebServiceApplication.logStarting() 
+- Running with Spring Boot v2.1.4.RELEASE, Spring v5.1.6.RELEASE
+[INFO ] 
+ 2019-04-10 12:04:38,236 
+ ApsqrcWebServiceApplication.logStartupProfileInfo() 
+- No active profile set, falling back to default profiles: default
+[INFO ] 
+ 2019-04-10 12:04:38,322 
+ DevToolsPropertyDefaultsPostProcessor.logTo() 
+- Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 
+ 2019-04-10 12:04:38,323 
+ DevToolsPropertyDefaultsPostProcessor.logTo() 
+- For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 
+ 2019-04-10 12:04:40,447 
+ PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization() 
+- Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$695b30] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 
+ 2019-04-10 12:04:40,508 
+ AnnotationActionEndpointMapping.afterPropertiesSet() 
+- Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+[INFO ] 
+ 2019-04-10 12:04:40,518 
+ PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization() 
+- Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$db51e363] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[INFO ] 
+ 2019-04-10 12:04:41,197 
+ TomcatWebServer.initialize() 
+- Tomcat initialized with port(s): 8085 (http)
+[INFO ] 
+ 2019-04-10 12:04:41,219 
+ Http11NioProtocol.log() 
+- Initializing ProtocolHandler ["http-nio-8085"]
+[INFO ] 
+ 2019-04-10 12:04:41,235 
+ StandardService.log() 
+- Starting service [Tomcat]
+[INFO ] 
+ 2019-04-10 12:04:41,237 
+ StandardEngine.log() 
+- Starting Servlet engine: [Apache Tomcat/9.0.17]
+[INFO ] 
+ 2019-04-10 12:04:41,448 
+ [/].log() 
+- Initializing Spring embedded WebApplicationContext
+[INFO ] 
+ 2019-04-10 12:04:41,450 
+ ContextLoader.prepareWebApplicationContext() 
+- Root WebApplicationContext: initialization completed in 3127 ms
+[INFO ] 
+ 2019-04-10 12:04:43,820 
+ ThreadPoolTaskExecutor.initialize() 
+- Initializing ExecutorService 'applicationTaskExecutor'
+[INFO ] 
+ 2019-04-10 12:04:44,790 
+ OptionalLiveReloadServer.startServer() 
+- LiveReload server is running on port 35729
+[INFO ] 
+ 2019-04-10 12:04:44,819 
+ EndpointLinksResolver.<init>() 
+- Exposing 15 endpoint(s) beneath base path '/appmonitoring'
+[INFO ] 
+ 2019-04-10 12:04:44,954 
+ Http11NioProtocol.log() 
+- Starting ProtocolHandler ["http-nio-8085"]
+[INFO ] 
+ 2019-04-10 12:04:45,132 
+ TomcatWebServer.start() 
+- Tomcat started on port(s): 8085 (http) with context path ''
+[INFO ] 
+ 2019-04-10 12:04:45,138 
+ ApsqrcWebServiceApplication.logStarted() 
+- Started ApsqrcWebServiceApplication in 7.846 seconds (JVM running for 9.716)
+[INFO ] 
+ 2019-04-10 12:04:54,050 
+ [/].log() 
+- Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 
+ 2019-04-10 12:04:54,052 
+ DispatcherServlet.initServletBean() 
+- Initializing Servlet 'dispatcherServlet'
+[INFO ] 
+ 2019-04-10 12:04:54,111 
+ DispatcherServlet.initServletBean() 
+- Completed initialization in 59 ms
+[INFO ] 
+ 2019-04-10 12:04:54,236 
+ QRCodeRestAPIController.generateQRImage() 
+- Creating QR Code For Payment Details: Merchant(qrVersion=33, qrType=p, merchantCompanyName=Kama jl8, merchantCategory=Electricity Bill, bankAccount=105999998789755)
+[INFO ] 
+ 2019-04-10 12:04:54,475 
+ QRCodeRestAPIController.generateQRImage() 
+- QR Image Has Been Successfully Generated With Payment Details Such As : 1:33*2:p*3:Kama jl8*4:Electricity Bill*5:105999998789755
+[INFO ] 
+ 2019-04-10 12:05:04,225 
+ QRCodeRestAPIController.generateQRImage() 
+- Creating QR Code For Payment Details: Merchant(qrVersion=33, qrType=p, merchantCompanyName=Kama jl8, merchantCategory=Electricity Bill, bankAccount=105999998789755)
+[INFO ] 
+ 2019-04-10 12:05:04,280 
+ QRCodeRestAPIController.generateQRImage() 
+- QR Image Has Been Successfully Generated With Payment Details Such As : 1:33*2:p*3:Kama jl8*4:Electricity Bill*5:105999998789755
+[INFO ] 
+ 2019-04-10 12:05:11,874 
+ QRCodeRestAPIController.generateQRImage() 
+- Creating QR Code For Payment Details: Merchant(qrVersion=33, qrType=p, merchantCompanyName=Kama jl8, merchantCategory=Electricity Bill, bankAccount=105999998789755)
+[INFO ] 
+ 2019-04-10 12:05:11,922 
+ QRCodeRestAPIController.generateQRImage() 
+- QR Image Has Been Successfully Generated With Payment Details Such As : 1:33*2:p*3:Kama jl8*4:Electricity Bill*5:105999998789755
+[INFO ] 
+ 2019-04-10 12:05:31,088 
+ QRCodeRestAPIController.readQRImage() 
+- Decoding The Imported QR Image: qr code test.PNG
+[INFO ] 
+ 2019-04-10 12:05:31,301 
+ QRCodeRestAPIController.readQRImage() 
+- The QR Image Has Been Successfully Decoded: Merchant(qrVersion=20, qrType=C, merchantCompanyName=Ahmad, merchantCategory=Water Bill, bankAccount=10010245908764)
